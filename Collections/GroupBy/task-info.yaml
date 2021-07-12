@@ -11,7 +11,7 @@ files:
       length: 6
       offset: 133
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
     encrypted_possible_answer: customers.groupBy { it.city }
   text: |
