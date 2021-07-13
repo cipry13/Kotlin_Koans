@@ -57,25 +57,25 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 83
-    length: 10
+  - offset: 81
+    length: 28
     placeholder_text: /* TODO */
     initial_state:
       length: 10
       offset: 83
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: (color = getTitleColor())
-  - offset: 389
-    length: 6
+  - offset: 404
+    length: 467
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 389
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       for ((index, product) in products.withIndex()) {
                       tr {
@@ -182,5 +182,8 @@ files:
 - name: task.md.wb
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Tue, 13 Jul 2021 12:37:14 UTC
 record: -1
